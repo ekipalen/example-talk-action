@@ -1,0 +1,23 @@
+{
+    "inputs": [
+        {
+            "inputName": "input-1",
+            "inputValue": {
+                "text": "Hello, how are you?",
+                "voice": "en-US-AnaNeural"
+            }
+        }
+    ],
+    "metadata": {
+        "actionName": "talk",
+        "actionRelativePath": "actions.py",
+        "schemaDescription": [
+            "text: string: Text to convert to audio and play.",
+            "voice: string: Voice to use for the audio."
+        ],
+        "managedParamsSchemaDescription": {},
+        "inputFileVersion": "v3",
+        "kind": "action",
+        "actionSignature": "action/args: 'text: str, voice: str'"
+    }
+}
